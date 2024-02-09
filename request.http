@@ -1,0 +1,23 @@
+###
+POST http://localhost:5000/network/create
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:5000/network/get
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:5000/
+Content-Type: application/json
+
+{}
+
+###
+GET http://localhost:5000/network/alerts/get
+Content-Type: application/json
+
+{}
